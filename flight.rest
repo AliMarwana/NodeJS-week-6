@@ -1,0 +1,16 @@
+
+@url = "http://localhost:3000/"
+
+GET http://localhost:3000/flight HTTP/1.1
+
+#################################
+POST http://localhost:3000/flight HTTP/1.1
+
+Content-Type: application/json
+{
+        "title": "flight to Burkina",
+        "time": "9pm",
+        "price": 10000,
+        "date": "09-08-2022"
+        
+}
